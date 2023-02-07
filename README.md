@@ -5,7 +5,6 @@ In this project, we will build a model to classify messages that are sent during
 
 Finally, this project contains a web app where you can input a message and get classification results.
 
-![Screenshot of Web App](WebApp.PNG)
 
 ## File Description
 ~~~~~~~
@@ -23,13 +22,6 @@ Finally, this project contains a web app where you can input a message and get c
           |-- models
                 |-- classifier.pkl
                 |-- train_classifier.py
-          |-- Preparation
-                |-- categories.csv
-                |-- ETL Pipeline Preparation.ipynb
-                |-- ETL_Preparation.db
-                |-- messages.csv
-                |-- ML Pipeline Preparation.ipynb
-                |-- README
           |-- README
 ~~~~~~~
 ## Installation
@@ -58,4 +50,3 @@ Must runing with Python 3 with libraries of numpy, pandas, sqlalchemy, re, NLTK,
 ## Licensing, Authors, Acknowledgements
 Many thanks to Figure-8 for making this available to Udacity for training purposes. Special thanks to udacity for the training. Feel free to utilize the contents of this while citing me, udacity, and/or figure-8 accordingly.
 
-### NOTICE: Preparation folder is not necessary for this project to run.
