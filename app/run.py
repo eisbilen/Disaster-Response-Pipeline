@@ -54,7 +54,6 @@ def index():
     direct_cate_names = list(direct_cate_counts.index)
     
     # create visuals
-    # TODO: Below is an example - modify to create your own visuals
     graphs = [
         {
             'data': [
@@ -140,10 +139,8 @@ def go():
         classification_result=classification_results
     )
 
-
 def main():
     app.run(host='0.0.0.0', port=3001, debug=True)
-
 
 if __name__ == '__main__':
     main()
